@@ -19,7 +19,7 @@ const server = http.createServer(app);
 // });
 const io = socketIO(server, {
   cors: true,
-  origins: ["http://localhost:3000"],
+  origins: [process.env.CLIENT_URL],
 });
 /* ------------------------------- cors setup ------------------------------- */
 // const corsOptions = {
