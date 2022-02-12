@@ -3,7 +3,7 @@ import socketIOClient from "socket.io-client";
 import React, { useEffect, useRef, useState } from "react";
 
 // const SOCKET_SERVER_URL = `http://${process.env.REACT_APP_CLIENT_URL}:4000`;
-const SOCKET_SERVER_URL = `http://localhost:4000`;
+const SOCKET_SERVER_URL = `http://test.omarragab.com:4000`;
 
 function App() {
   const socketRef = useRef();
